@@ -1,0 +1,14 @@
+*.swp
+.DS_Store
+.bundle
+.env
+.fontconfig
+.powenv
+.rbenv-version
+.rvmrc
+.ruby-gemset
+.ruby-version
+backup.complete
+output.csv
+tmp/
+

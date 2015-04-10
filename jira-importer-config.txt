@@ -1,0 +1,105 @@
+{
+  "config.version" : "2.0",
+  "config.project.from.csv" : "false",
+  "config.encoding" : "UTF-8",
+  "config.email.suffix" : "@example.com",
+  "config.field.mappings" : {
+    "severity" : {
+      "jira.field" : "priority"
+    },
+    "resolved-at" : {
+      "jira.field" : "resolutiondate"
+    },
+    "updated-at" : {
+      "jira.field" : "updated"
+    },
+    "description" : {
+      "jira.field" : "description"
+    },
+    "issue-type" : {
+      "jira.field" : "issuetype"
+    },
+    "reporter" : {
+      "jira.field" : "reporter"
+    },
+    "epic-link" : {
+      "existing.custom.field" : "10007"
+    },
+    "title" : {
+      "jira.field" : "summary"
+    },
+    "resolution" : {
+      "jira.field" : "resolution"
+    },
+    "associated-ticket-number" : {
+      "link.type" : "10003"
+    },
+    "unfuddle-number" : {
+      "jira.field" : "issue-id"
+    },
+    "Team" : {
+      "jira.field" : "components"
+    },
+    "created-at" : {
+      "jira.field" : "created"
+    },
+    "comment" : {
+      "jira.field" : "comment"
+    },
+    "due-on" : {
+      "jira.field" : "duedate"
+    },
+    "assignee" : {
+      "jira.field" : "assignee"
+    },
+    "epic-name" : {
+      "existing.custom.field" : "10008"
+    },
+    "jira-issue-key" : {
+      "jira.field" : "issuekey"
+    },
+    "status" : {
+      "jira.field" : "status"
+    }
+  },
+  "config.value.mappings" : {
+    "severity" : {
+      "0.0" : "0",
+      "1.0" : "1",
+      "2.0" : "2",
+      "3.0" : "3",
+      "4.0" : "4",
+      "5.0" : "5"
+    },
+    "issue-type" : {
+      "Epic" : "10000",
+      "Story" : "10001"
+    },
+    "resolution" : {
+      "fixed" : "1",
+      "duplicate" : "3",
+      "works_for_me": "5",
+      "will_not_fix": "2",
+      "invalid" : "4",
+      "postponed" : "2",
+      "fixed" : "1"
+    },
+    "status" : {
+      "new" : "1",
+      "Reopened" : "1",
+      "closed" : "6",
+      "Resolved" : "10002",
+      "Reassigned" : "1",
+      "Accepted" : "3"
+    }
+  },
+  "config.delimiter" : ",",
+  "config.project" : {
+    "project.key" : "LU",
+    "project.description" : null,
+    "project.url" : null,
+    "project.name" : "LevelUp Engineering",
+    "project.lead" : "admin"
+  },
+  "config.date.format" : "yyyy-MM-dd'T'HH:mm:ss'Z'"
+}
